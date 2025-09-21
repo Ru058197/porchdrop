@@ -11,95 +11,41 @@
     }
     *{box-sizing:border-box}
     body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--text); background:var(--bg)}
-    a{color:var(--accent); text-decoration:none}
     header{padding:64px 20px 32px; text-align:center; background:linear-gradient(180deg,#fafafa,transparent)}
-    .brand{font-weight:800; font-size:30px; letter-spacing:.3px}
+    .brand{font-weight:800; font-size:32px}
     .tag{margin-top:10px; color:var(--muted)}
-    .cta{margin-top:18px; display:inline-block; padding:12px 18px; border-radius:12px; background:var(--accent); color:#fff; font-weight:700}
-    .wrap{max-width:980px; margin:0 auto; padding:24px 20px}
-    .hero{display:grid; gap:22px; grid-template-columns:1fr}
-    .card{background:var(--card); padding:20px; border-radius:16px; border:1px solid var(--line)}
-    .grid{display:grid; gap:20px}
-    h1,h2,h3{margin:0 0 10px}
-    p{margin:0 0 10px; line-height:1.55}
-    ul{margin:0; padding-left:18px}
+    .wrap{max-width:800px; margin:0 auto; padding:24px 20px}
+    .card{background:var(--card); padding:28px; border-radius:16px; border:1px solid var(--line); margin-bottom:28px}
+    h2{margin:0 0 12px}
+    p{margin:0 0 14px; line-height:1.55}
     footer{padding:40px 20px; color:var(--muted); text-align:center; border-top:1px solid var(--line)}
-    .spec{font-variant-numeric:tabular-nums; color:var(--muted)}
-    @media(min-width:860px){
-      .hero{grid-template-columns:1.2fr .8fr}
-      .grid{grid-template-columns:1fr 1fr 1fr}
-    }
   </style>
 </head>
 <body>
   <header>
     <div class="brand">PorchDrop™</div>
     <div class="tag">The clean, sturdy place for deliveries — right at your door.</div>
-    <a class="cta" href="#products">See models</a>
   </header>
 
   <main class="wrap">
-    <section class="hero" id="about">
-      <div class="card">
-        <h2>Why PorchDrop?</h2>
-        <p>Stop finding dinner on the ground. PorchDrop is a compact, weather-resistant platform that tells drivers exactly where to set your order — with “PLACE FOOD HERE” embossed on top.</p>
-        <ul>
-          <li>Snap-lock folding legs for fast setup</li>
-          <li>Stable on typical porch surfaces</li>
-          <li>Low-profile storage when folded</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>At a Glance</h2>
-        <p class="spec">
-          Top: 16&quot; × 16&quot; (prototype) • Height: ~18&quot; (min) • Weather-resistant materials<br>
-          Models: Classic (fixed legs) • Fold (U-frame / X-frame concept)
-        </p>
-        <p style="margin-top:8px;color:#5f6b76">Sullivan Project Works LLC</p>
-      </div>
-    </section>
+    <div class="card">
+      <h2>Why PorchDrop?</h2>
+      <p>Tired of finding your food dropped on the ground? PorchDrop gives drivers a clear, stable place to leave deliveries — right by your door, safe from spills and weather.</p>
+      <p>Compact, weather-resistant, and designed for modern porches.</p>
+    </div>
 
-    <section id="products" style="margin-top:28px">
-      <h2 style="margin-bottom:12px">Models</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>PorchDrop Classic</h3>
-          <p>Simple, sturdy platform for daily deliveries.</p>
-          <ul>
-            <li>Fixed-leg design</li>
-            <li>Embossed “PLACE FOOD HERE”</li>
-            <li>Everyday reliability</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>PorchDrop Fold</h3>
-          <p>Same footprint, folds flat for storage.</p>
-          <ul>
-            <li>Snap-lock folding legs</li>
-            <li>Target folded height: low profile</li>
-            <li>U-frame / X-frame options under review</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Specs (Prototype)</h3>
-          <ul>
-            <li>Top thickness: ~19 mm</li>
-            <li>Edge protrusion: 12.7 mm</li>
-            <li>Pattern height: 0.5 mm</li>
-            <li>Leg OD: 16 mm; ID: 13 mm</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <div class="card">
+      <h2>Coming Soon</h2>
+      <p>We’re finalizing the PorchDrop design and preparing for launch. Stay tuned for updates as we bring this simple but powerful idea to life.</p>
+    </div>
 
-    <section id="contact" style="margin-top:28px">
+    <div class="card">
       <h2>Contact</h2>
       <p>Company: Sullivan Project Works LLC</p>
       <p>Address: 9218 Isabella Circle, Parrish, FL 34219</p>
-      <p>Contact: Russ Sullivan</p>
-      <p>Email: <a href="mailto:myporchdrop@gmail.com">rsullivantalent@gmail.com</a></p>
+      <p>Email: <a href="mailto:myporchdrop@gmail.com">myporchdrop@gmail.com</a></p>
       <p>Phone: +1 (303) 587-7842</p>
-    </section>
+    </div>
   </main>
 
   <footer>
